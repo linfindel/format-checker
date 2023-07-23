@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Format Checker</title>
+
+    <link rel="stylesheet" href="https://raw.githack.com/Nadir-Software/nadircss/main/nadir.css">
+</head>
+<body class="body-font-noto">
+    <div class="navbar">
+        <h1>Format Checker</h1>
+    </div>
+
+    <div class="column">
+        <div class="row">
+            <div class="card" id="email-card">
+                <h2 class="text-center">Email address</h2>
+                <input type="text" placeholder="Input data to validate" id="email" oninput="check('email')">
+            </div>
+
+            <div class="card" id="phone-card">
+                <h2 class="text-center">Phone number</h2>
+                <input type="text" placeholder="Input data to validate" id="phone" oninput="check('phone')">
+            </div>
+
+            <div class="card" id="date-card">
+                <h2 class="text-center">Date</h2>
+                <input type="text" placeholder="Input data to validate" id="date" oninput="check('date')">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="card" id="url-card">
+                <h2 class="text-center">URL</h2>
+                <input type="text" placeholder="Input data to validate" id="url" oninput="check('url')">
+            </div>
+
+            <div class="card" id="ip-card">
+                <h2 class="text-center">IP address</h2>
+                <input type="text" placeholder="Input data to validate" id="ip" oninput="check('ip')">
+            </div>
+
+            <div class="card" id="coordinates-card">
+                <h2 class="text-center">Coordinates</h2>
+                <input type="text" placeholder="Input data to validate" id="coordinates" oninput="check('coordinates')">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="card" id="isbn-card">
+                <h2 class="text-center">ISBN number</h2>
+                <input type="text" placeholder="Input data to validate" id="isbn" oninput="check('isbn')">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
